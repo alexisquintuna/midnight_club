@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Product Page</title>
+  </head>
+    <style media="screen">
+      html,
+body {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+{--logo--}
+
+#mclogo {
+  margin: 1%;
+  position: relative;
+  left: 625px;
+}
+
+.logo{
+  position: absolute;
+  top: 63px;
+  left: 7px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+#header-img {
+  height: 80px;
+  width: 80px;
+}
+
+{--navbar--}
+
+#header {
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  padding: 3px 0px;
+  background-color: black;
+  height: 120px;
+  width: 100%;
+}
+
+.nav-bp{
+  ont-weight: 100px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  list-style-type: none;
+  text-align: center;
+  margin: 3px;
+  align-items: center;
+  padding: 1px;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 80px;
+}
+
+.nav-bp li{
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-link,
+.logo {
+  color: white;
+  opacity: 5.7;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+{-homepage-}
+#home {
+ height: 100vh;
+ width: 100%;
+ padding: 3rem 4rem;
+ box-sizing: border-box;
+}
+#mainhome-text {
+  margin: 5px;
+  top: 200px;
+  position: absolute;
+}
+
+#home-img {
+  height: 70%;
+  width: 70%;
+  margin-left: 170px;
+}
+.home-textt {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: absolute;
+  bottom: 430px;
+  left: 190px;
+  font-size: 30px;
+}
+.home-text {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: absolute;
+  bottom: 315px;
+  left: 230px;
+  font-size: 80px;
+  padding: 3px;
+}
+.home-textu {
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+  font-size: 22px;
+}
+
+{-welcomepage-}
+
+#welcome {
+ height: 100%;
+ width: 100%;
+ padding: 3rem 4rem;
+ box-sizing: border-box;
+ margin-top: 70px;
+}
+
+.welcome-text {
+  color: white;
+  font-size: 28px;
+  margin-left: 302px;
+  margin-bottom: 70px;
+}
+
+.welcome-textu {
+  color: white;
+  font-size: 28px;
+}
+
+#video-text {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  left: 400px;
+}
+
+#video {
+height: 300px;
+width: 2700px;
+}
+.welcome-sec {
+  margin-left: 100px;
+}
+
+{-historypage-}
+
+#history {
+ height: 100vh;
+ width: 100%;
+ padding: 3rem 4rem;
+ box-sizing: border-box;
+}
+.history-main {
+  text-align: center;
+  font-size: 28px;
+}
+
+#his-dis{
+  color: white;
+  text-align: center;
+}
+.his-text{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 400px;
+  border-style: solid;
+  border-color: black;
+  border-heigh: 200px;
+  border-width: 100px;
+}
+#founder {
+  display: flex;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.history-img {
+  flex: 1px;
+  padding: 5px;
+}
+
+img {
+ float: left;
+ width:  300px;
+ height: 250px;
+ object-fit: cover;
+}
+
+{-pricingpage-}
+
+#pricing{
+ padding: 30px 150px;
+ box-sizing: border-box;
+ flex-direction: row;
+ display: flex;
+ justify-content: space-around;
+ position: relative;
+ left: 28px;
+ color: white;
+ bakground-color: black;
+ top: 160px;
+}
+.product{
+  color: white;
+  flex: 33.33%;
+  padding: 100px;
+}
+
+#basic-info {
+  font-size: 20px;
+  list-style-type: none;
+  height: 20px;
+  width: 500px;
+  right: 240px;
+  top: 45px;
+  position: relative;
+  text-align: center;
+}
+
+#better-info {
+  font-size: 20px;
+  list-style-type: none;
+  height: 20px;
+  width: 250px;
+  right: 115px;
+  top: 25px;
+  position: relative;
+  text-align: center;
+}
+
+#best-info {
+  font-size: 20px;
+  list-style-type: none;
+  height: 20px;
+  width: 250px;
+  right: 115px;
+  bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+.price-name{
+  font-size: 48px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+li{
+  margin: 10px 0;
+}
+/*price-names*/
+
+#basic-name{
+  bottom: 560px;
+  position: absolute;
+  background-color: black;
+  left: 235px;
+  padding: 25px;
+  letter-spacing: 3px;
+
+}
+
+#better-name {
+  bottom: 560px;
+  position: absolute;
+  background-color: black;
+  left: 563px;
+  padding: 25px;
+  letter-spacing: 3px;
+}
+#best-name{
+  bottom: 574px;
+  position: absolute;
+  background-color: black;
+  left: 957px;
+  padding: 25px;
+  letter-spacing: 3px;
+}
+/*buttons*/
+
+.button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.basicbutton {
+  position: relative;
+  top: 250px;
+  right: 82px;
+  width: 100px;
+  color: #0062FF;
+  font-size: 25px;
+}
+
+.betterbutton {
+  position: relative;
+  right: 82px;
+  top: 250px;
+  color: #FF0099;
+  font-size: 25px;
+}
+
+.bestbutton{
+  position: relative;
+  right: 82px;
+  top: 250px;
+  color: #6E0DD0;
+  font-size: 25px;
+}
+/*border*/
+
+#basic {
+ width: 300px;
+ height: 550px;
+ margin: 1px;
+ border: 4px solid #0062FF;
+ border-radius: 20px;
+ box-sizing: border-box;
+}
+
+#better {
+  width: 300px;
+  height: 550px;
+  margin: 1px;
+  border: 4px solid #FF0099;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
+
+#best {
+  width: 300px;
+  height: 550px;
+  margin: 1px;
+  border: 4px solid #6E0DD0;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.price-num{
+  font-size: 20px;
+  position: relative;
+  bottom: 60px;
+  left: 9px;
+  }
+
+/*contactpage*/
+
+#scontact{
+ height: 100vh;
+ width: 100%;
+ padding: 3rem 4rem;
+ box-sizing: border-box;
+}
+.submit-info {
+  color: white;
+}
+
+{-footerpage-}
+
+#cb {
+  color: white;
+}
+#emptybar {
+ height: 100vh;
+ width: 100%;
+ padding: 3rem 4rem;
+ box-sizing: border-box;
+}
+
+    </style>
+    <header id="header">
+      <nav class="navbar" id="nav-bar">
+       <div id="mclogo">
+        <img alt="rx7" class="rx7" id="header-img" src="https://thumbs.dreamstime.com/b/cartoon-japan-tuned-car-red-sun-background-back-view-vector-illustration-cartoon-japan-tuned-car-red-sun-background-back-123158009.jpg">
+       <a href='#' class='logo'>
+         Midnight</a>
+        </div>
+        <div class="pullDown">
+        <ul class="nav-bp">
+          <li>
+            <a href="#welcome" class="nav-link">Welcome</a>
+          </li>
+          <li>
+            <a href="#history" class="nav-link">History</a>
+          </li>
+          <li>
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+      <div class="emptybar"></div>
+    <section id="home">
+      <div id="mainhome-text">
+        <img alt="midnight club" id="home-img" src="https://assetsds.cdnedge.bluemix.net/sites/default/files/styles/very_big_1/public/feature/images/petrolhead_travelling_1.jpg?itok=bTww4SY3">
+        <h3 class="home-textt">
+          Welcome To The
+        </h3>
+        <h2 class="home-text">
+          Midnight Club
+        </h2>
+        <h4 class="home-textu">
+          We are here for one thing and one thing only to have fun and wild out.
+        </h4>
+      </div>
+    </section>
+      <div class="emptybar"></div>
+    <section id="welcome">
+     <div class="welcome-sec">
+      <h3 class="welcome-text">
+        Welcome To The Underground Scene
+       </h3>
+       <div id="video-text">
+       <h5 class="welcome-textu">
+         Its either you've found this page by luck or you have been invited by a fellow member. This isn't no ordinary racing club. In this club you must already have street credit and be considered elite. This is where the elite of elite come to compete and have fun. Nothing but fun, no beef, no problems, just race.
+       </h5>
+       <iframe height="252px" width="448px" scrolling="no" src="https://www.youtube.com/embed/v=wALLAH0yxdg" frameborder="1" allowfullscreen id="video">
+         </iframe>
+       </div>
+      </div>
+    </section>
+      <div class="emptybar"></div>
+    <section id="history">
+      <h3 class="history-main">
+        History
+      </h3>
+      <div id="founder">
+      <div class="history-img">
+      <img alt="hans rx7" class="history-col" src="https://static2.hotcarsimages.com/wordpress/wp-content/uploads/2020/03/Hans-RX-7.jpg?q=50&fit=crop&w=740&h=416">
+      </div>
+      <div class="history-img">
+      <img alt="han" class="history-col" src="https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1578/15789737/3631407-han12.jpg">
+      </div>
+      <div class="history-img">
+          <img alt="hans silvia" class="history-col" src="https://pbs.twimg.com/media/D93mcsvU8AEz_iC.jpg">
+      </div>
+      </div>
+      <p id="his-dis"> Han Seoul (founder)</p>
+      <div id="history-text">
+        <h3 class="his-text">
+          Han Seoul is the founder of the Midnight Club. It all started back when he was in Chicago and was introduced into the underground scene of cars. Here he saw a variety of cars. Starting from show cars to race cars to drift cars. He saw it all and was amazed. Night after night he saw more and more cars but everytime the group went out to show of the cars it'll always be shut down by cops. This made him think what if there was a way to still organize such events but in a more disclose area. This is when he invented the Midnight Club. A car group where theres nothing but love to each other and cars, a little competion here and there to see whos the real big dog but nothing too intense.
+        </h3>
+      </div>
+    </section>
+      <div class="emptybar"></div>
+    <section id="pricing">
+    <div id="price-box">
+      <div id="basic" class="product">
+        <div class="price-name">
+          <div id="basic-name" style="width:145px;height:20px;">
+            Basic
+          </div>
+        </div>
+        <h4 class="price-num">
+          $10.00/mo
+        </h4>
+        <ul id="basic-info">
+          <li>
+            Dates
+          </li>
+          <li>
+            Discord password
+          </li>
+          <li>
+            Discreet Locations
+          </li>
+          <li>
+            Participate in events
+          </li>
+        </ul>
+       <button style="width:260px; height:60px;" class="button basicbutton">
+        Lets Race
+      </button>
+    </div>
+      </div>
+    </div>
+    <div id="price-box">
+      <div id="better" class="product">
+        <div class="price-name">
+          <div id="better-name" style="width:190px;height:20px;">
+            Better
+          </div>
+        </div>
+        <h4 class="price-num">
+          $20.00/mo
+        </h4>
+        <ul id="better-info">
+          <li>
+            Dates
+          </li>
+          <li>
+            Discord password
+          </li>
+          <li>
+            Discreet Locations
+          </li>
+          <li>
+            Participate in events
+          </li>
+          <li>
+            Personal Photographer and Editor avaible
+          </li>
+        </ul>
+        <button style="width:260px;height:60px;" class="button betterbutton">
+          Select
+        </button>
+      </div>
+    </div>
+    <div id="price-box">
+      <div id="best" class="product">
+        <div class="price-name">
+          <div id="best-name" style="width:120px;height:5px;">
+            Best
+          </div>
+        </div>
+        <h4 class="price-num">
+          $25.00/mo
+        </h4>
+        <ul id="best-info">
+          <li>
+            Dates
+          </li>
+          <li>
+            Discord password
+          </li>
+          <li>
+            Discreet Locations
+          </li>
+          <li>
+            Participate in events
+          </li>
+          <li>
+            Personal Photographer and Editor avaible
+          </li>
+          <li>
+            Shout out on our instagram page
+          </li>
+          <li>
+            Exclusive items gifted every month
+          </li>
+        </ul>
+       <button style="width:260px;height:60px;" class="button bestbutton">
+         Select
+        </button>
+      </div>
+    </div>
+  </section>
+      <div class="emptybar"></div>
+    <section id="contact">
+      <div="submit">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <div class="submit-info">
+            <h3 id="submit-text">
+             <u> Want To Join? </u>
+            </h3>
+            <h5 id="submit-text">
+              Enter the following information and will be in contact shortly.
+            </h5>
+            <p id="opps">
+              (Just got to make sure you aint a fed you know)
+            </p>
+          </div>
+          <div id="your-info">
+       <input type="text" name="name" id="name" placeholder="Enter Street Name"></input>
+          <br>
+      <input type="email" name="email" id="email" placeholder="Enter Email Address" required></input>
+        <br>
+      <input type"text" name="social" id="social" placeholder="Instagram"></input>
+      <br>
+      <input type"text" name="social" id="social" placeholder="Twitter"></input>
+      <br>
+    <input type"text" name="social" id="social" placeholder="Facebook"></input>
+      <br>
+    <input type"text" name="social" id="social" placeholder="Youtube"></input>
+  <br>
+    <input type="submit" class="submit" id="submit" value="Lets Race"></input>
+            </div>
+        </form>
+      </div>
+    </section>
+      <div class="emptybar"></div>
+    <footer id="cb">
+  <span> Coded By Alexis Quintuna 2021</span>
+</footer>
+    </main>
+</html>
