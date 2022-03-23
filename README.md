@@ -2,7 +2,7 @@
 
 ## Description
 
-A web app for Genere Natus. Genere Natus is a club promoting  underground street racing but in a safely manner.
+A web app for Genere Natus. Genere Natus is a club promoting  underground street racing but in a safely manner. [Click here](https://genere-natus.vercel.app/) for live site.
 
 side note: turn this site into a react app soon.
 
